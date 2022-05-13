@@ -1,0 +1,16 @@
+{
+  "name": "repros",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "esno serve.ts"
+  },
+  "keywords": [],
+  "author": "weiran",
+  "license": "ISC",
+  "devDependencies": {
+    "esno": "^0.15.0",
+    "koa": "^2.13.4"
+  }
+}
