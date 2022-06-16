@@ -1,0 +1,19 @@
+{
+  "name": "eslint-plugin-n-issue22",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "keywords": [],
+  "author": "weiran",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-plugin-n": "15.2.2"
+  }
+}
