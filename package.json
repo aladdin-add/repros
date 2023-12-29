@@ -1,0 +1,16 @@
+{
+  "name": "acorn-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "weiran",
+  "license": "ISC",
+  "dependencies": {
+    "acorn": "8.11.2",
+    "acorn-v8.9.0": "npm:acorn@8.9.0"
+  }
+}

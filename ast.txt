@@ -1,0 +1,169 @@
+Node {
+  type: 'Program',
+  start: 0,
+  end: 70,
+  loc: SourceLocation {
+    start: Position { line: 1, column: 0 },
+    end: Position { line: 8, column: 0 }
+  },
+  range: [ 0, 70 ],
+  body: [
+    Node {
+      type: 'VariableDeclaration',
+      start: 0,
+      end: 17,
+      loc: SourceLocation {
+        start: Position { line: 1, column: 0 },
+        end: Position { line: 1, column: 17 }
+      },
+      range: [ 0, 17 ],
+      declarations: [
+        Node {
+          type: 'VariableDeclarator',
+          start: 4,
+          end: 16,
+          loc: SourceLocation {
+            start: Position { line: 1, column: 4 },
+            end: Position { line: 1, column: 16 }
+          },
+          range: [ 4, 16 ],
+          id: Node {
+            type: 'Identifier',
+            start: 4,
+            end: 9,
+            loc: SourceLocation {
+              start: Position { line: 1, column: 4 },
+              end: Position { line: 1, column: 9 }
+            },
+            range: [ 4, 9 ],
+            name: 'value'
+          },
+          init: Node {
+            type: 'Literal',
+            start: 12,
+            end: 16,
+            loc: SourceLocation {
+              start: Position { line: 1, column: 12 },
+              end: Position { line: 1, column: 16 }
+            },
+            range: [ 12, 16 ],
+            value: null,
+            raw: 'null'
+          }
+        }
+      ],
+      kind: 'var'
+    },
+    Node {
+      type: 'ClassDeclaration',
+      start: 19,
+      end: 69,
+      loc: SourceLocation {
+        start: Position { line: 3, column: 0 },
+        end: Position { line: 7, column: 1 }
+      },
+      range: [ 19, 69 ],
+      id: Node {
+        type: 'Identifier',
+        start: 25,
+        end: 26,
+        loc: SourceLocation {
+          start: Position { line: 3, column: 6 },
+          end: Position { line: 3, column: 7 }
+        },
+        range: [ 25, 26 ],
+        name: 'C'
+      },
+      superClass: null,
+      body: Node {
+        type: 'ClassBody',
+        start: 27,
+        end: 69,
+        loc: SourceLocation {
+          start: Position { line: 3, column: 8 },
+          end: Position { line: 7, column: 1 }
+        },
+        range: [ 27, 69 ],
+        body: [
+          Node {
+            type: 'StaticBlock',
+            start: 31,
+            end: 67,
+            loc: SourceLocation {
+              start: Position { line: 4, column: 2 },
+              end: Position { line: 6, column: 3 }
+            },
+            range: [ 31, 67 ],
+            body: [
+              Node {
+                type: 'ExpressionStatement',
+                start: 44,
+                end: 63,
+                loc: SourceLocation {
+                  start: Position { line: 5, column: 4 },
+                  end: Position { line: 5, column: 23 }
+                },
+                range: [ 44, 63 ],
+                expression: Node {
+                  type: 'AssignmentExpression',
+                  start: 44,
+                  end: 62,
+                  loc: SourceLocation {
+                    start: Position { line: 5, column: 4 },
+                    end: Position { line: 5, column: 22 }
+                  },
+                  range: [ 44, 62 ],
+                  operator: '=',
+                  left: Node {
+                    type: 'Identifier',
+                    start: 44,
+                    end: 49,
+                    loc: SourceLocation {
+                      start: Position { line: 5, column: 4 },
+                      end: Position { line: 5, column: 9 }
+                    },
+                    range: [ 44, 49 ],
+                    name: 'value'
+                  },
+                  right: Node {
+                    type: 'MetaProperty',
+                    start: 52,
+                    end: 62,
+                    loc: SourceLocation {
+                      start: Position { line: 5, column: 12 },
+                      end: Position { line: 5, column: 22 }
+                    },
+                    range: [ 52, 62 ],
+                    meta: Node {
+                      type: 'Identifier',
+                      start: 52,
+                      end: 55,
+                      loc: SourceLocation {
+                        start: Position { line: 5, column: 12 },
+                        end: Position { line: 5, column: 15 }
+                      },
+                      range: [ 52, 55 ],
+                      name: 'new'
+                    },
+                    property: Node {
+                      type: 'Identifier',
+                      start: 56,
+                      end: 62,
+                      loc: SourceLocation {
+                        start: Position { line: 5, column: 16 },
+                        end: Position { line: 5, column: 22 }
+                      },
+                      range: [ 56, 62 ],
+                      name: 'target'
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  sourceType: 'script'
+}
