@@ -139,7 +139,7 @@ Node {
                       start: 52,
                       end: 55,
                       loc: SourceLocation {
-                        start: Position { line: 5, column: 12 },
+                        start: undefined,
                         end: Position { line: 5, column: 15 }
                       },
                       range: [ 52, 55 ],

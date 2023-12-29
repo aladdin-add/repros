@@ -1,4 +1,4 @@
-import { parse } from 'acorn-v8.9.0'
+import { parse } from 'acorn'
 import { writeFileSync } from 'fs'
 import {inspect} from 'util'
 
